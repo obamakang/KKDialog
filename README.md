@@ -7,9 +7,6 @@
 
 `KKDialog` is a bottom dialog layout implemented with `DialogFragment`，And supports pop-up animation, support any layout
 
-## Preview
-![KKDialogShare](/preview/bottom_dialog_share.gif)
-![KKDialogShare](/preview/bottom_dialog_edit.gif)
 ## Import
 
 Maven

@@ -2,10 +2,6 @@
 [![license](https://img.shields.io/badge/license-Apache%202-blue.svg?maxAge=2592000)](https://github.com/obamakang/KKDialog/blob/master/LICENSE)
 
 `KKDialog` 是一个通过 `DialogFragment` 实现的底部弹窗布局，并且支持弹出动画，支持任意布局
-
-## Preview
-![KKDialogShare](/preview/bottom_dialog_share.gif)
-![KKDialogShare](/preview/bottom_dialog_edit.gif)
 ## Import
 
 Maven
