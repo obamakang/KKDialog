@@ -19,7 +19,7 @@ import android.view.WindowManager;
  * Created by obamakang on 16/10/11.
  */
 
-public abstract class BaseBottomDialog extends DialogFragment {
+public abstract class BaseKKDialog extends DialogFragment {
 
     private static final String TAG = "base_bottom_dialog";
 

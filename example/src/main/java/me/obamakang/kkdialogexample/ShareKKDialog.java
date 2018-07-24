@@ -1,13 +1,13 @@
 package me.obamakang.kkdialogexample;
 
 import android.view.View;
-import me.obamakang.kkdialog.BaseBottomDialog;
+import me.obamakang.kkdialog.BaseKKDialog;
 
 /**
  * Created by obamakang on 16/10/11.
  */
 
-public class ShareBottomDialog extends BaseBottomDialog{
+public class ShareKKDialog extends BaseKKDialog {
 
     @Override
     public int getLayoutRes() {
