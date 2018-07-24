@@ -1,16 +1,16 @@
-package me.obamakang.bottomdialogexample;
+package me.obamakang.kkdialogexample;
 
 import android.content.Context;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
-import me.obamakang.bottomdialog.BaseBottomDialog;
+import me.obamakang.kkdialog.BaseKKDialog;
 
 /**
  * Created by obamakang on 16/10/12.
  */
 
-public class EditTextDialog extends BaseBottomDialog {
+public class EditTextDialog extends BaseKKDialog {
 
     private EditText mEditText;
 

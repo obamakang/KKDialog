@@ -1,4 +1,4 @@
-package me.obamakang.bottomdialog;
+package me.obamakang.kkdialog;
 
 /**
  * Created by obamakang on 16/10/11.
@@ -28,7 +28,7 @@ public abstract class BaseBottomDialog extends DialogFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setStyle(DialogFragment.STYLE_NO_TITLE, R.style.BottomDialog);
+        setStyle(DialogFragment.STYLE_NO_TITLE, R.style.KKDialog);
     }
 
     @Override

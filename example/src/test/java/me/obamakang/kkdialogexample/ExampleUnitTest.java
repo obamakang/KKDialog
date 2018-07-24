@@ -1,4 +1,4 @@
-package me.obamakang.bottomdialogexample;
+package me.obamakang.kkdialogexample;
 
 import org.junit.Test;
 

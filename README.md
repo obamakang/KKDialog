@@ -1,46 +1,46 @@
-# BottomDialog
-[![build](https://img.shields.io/badge/build-1.1.9-brightgreen.svg?maxAge=2592000)](https://bintray.com/obamakang/maven/BottomDialog)
-[![license](https://img.shields.io/badge/license-Apache%202-blue.svg?maxAge=2592000)](https://github.com/obamakang/BottomDialog/blob/master/LICENSE)
+# KKialog
+[![build](https://img.shields.io/badge/build-1.1.9-brightgreen.svg?maxAge=2592000)](https://bintray.com/obamakang/maven/KKDialog)
+[![license](https://img.shields.io/badge/license-Apache%202-blue.svg?maxAge=2592000)](https://github.com/obamakang/KKDialog/blob/master/LICENSE)
 
 [中文版](/README_ZH.md)
 
 
-`BottomDialog` is a bottom dialog layout implemented with `DialogFragment`，And supports pop-up animation, support any layout
+`KKDialog` is a bottom dialog layout implemented with `DialogFragment`，And supports pop-up animation, support any layout
 
 ## Preview
-![BottomDialogShare](/preview/bottom_dialog_share.gif)
-![BottomDialogShare](/preview/bottom_dialog_edit.gif)
+![KKDialogShare](/preview/bottom_dialog_share.gif)
+![KKDialogShare](/preview/bottom_dialog_edit.gif)
 ## Import
 
 Maven
 
     <dependency>
       <groupId>me.obamakang</groupId>
-      <artifactId>bottomdialog</artifactId>
+      <artifactId>kkdialog</artifactId>
       <version>1.1.9</version>
       <type>pom</type>
     </dependency>
     
 or Gradle
 
-	compile 'obamakang:bottomdialog:1.1.9'
+	compile 'obamakang:kkdialog:1.1.9'
 
 ## Uasge
 
-You can use `BottomDialog` in two different ways ：
+You can use `KKDialog` in two different ways ：
 
-### 1.Use directly `BottomDialog`
+### 1.Use directly `KKDialog`
 
 A simple three lines of code can be done:
     
-    BottomDialog.create(getSupportFragmentManager())
+    KKDialog.create(getSupportFragmentManager())
                     .setLayoutRes(R.layout.dialog_layout)      // dialog layout
                     .show();
                     
 Of course, you can also make simple settings:
 
-    BottomDialog.create(getSupportFragmentManager())
-                    .setViewListener(new BottomDialog.ViewListener() {    
+    KKDialog.create(getSupportFragmentManager())
+                    .setViewListener(new KKDialog.ViewListener() {    
                         @Override
                         public void bindView(View v) {
                             // // You can do any of the necessary the operation with the view
@@ -49,16 +49,16 @@ Of course, you can also make simple settings:
                     .setLayoutRes(R.layout.dialog_layout)  
                     .setDimAmount(0.1f)            // Dialog window dim amount(can change window background color）, range：0 to 1，default is : 0.2f
                     .setCancelOutside(false)     // click the external area whether is closed, default is : true
-                    .setTag("BottomDialog")     // setting the DialogFragment tag
+                    .setTag("KKDialog")     // setting the DialogFragment tag
                     .show();
 
 So Easy！
 
-### 2.or extends `BaseBottomDialog` to use
+### 2.or extends `BaseKKDialog` to use
 
-First of all, according to your needs to define a class，extends `BaseBottomDialog`，For example below `ShareBottomDialog`
+First of all, according to your needs to define a class，extends `BaseKKDialog`，For example below `ShareKKDialog`
     
-    public class ShareBottomDialog extends BaseBottomDialog{
+    public class ShareKKDialog extends BaseKKDialog{
     
         @Override
         public int getLayoutRes() {
@@ -73,7 +73,7 @@ First of all, according to your needs to define a class，extends `BaseBottomDia
 
 So simple, only two abstract methods needed to achieve, the rest is to add your logic. Of course, you can also rewrite some of the necessary methods to meet your needs, You can manipulate this Dialog as you would a Fragment
 
-    int getHeight()                 // return your bottomDialog height
+    int getHeight()                 // return your KKDialog height
 
     float getDimAmount()            // set dialog dim amount（can change window background color）, default is 0.2f
 
@@ -83,7 +83,7 @@ So simple, only two abstract methods needed to achieve, the rest is to add your 
 
 The rest is use it：
 
-        ShareBottomDialog dialog = new ShareBottomDialog();
+        ShareKKDialog dialog = new ShareKKDialog();
         dialog.show(getFragmentManager());
 
 That is all！

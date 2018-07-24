@@ -1,1 +1,1 @@
-include ':example', ':bottomdialog'
+include ':example', ':kkdialog'

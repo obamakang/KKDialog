@@ -1,4 +1,4 @@
-package me.obamakang.bottomdialogexample;
+package me.obamakang.kkdialogexample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("me.obamakang.bottomdialog", appContext.getPackageName());
+        assertEquals("me.obamakang.kkdialog", appContext.getPackageName());
     }
 }

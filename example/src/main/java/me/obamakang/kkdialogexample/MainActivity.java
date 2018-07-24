@@ -1,10 +1,10 @@
-package me.obamakang.bottomdialogexample;
+package me.obamakang.kkdialogexample;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import me.obamakang.bottomdialog.BottomDialog;
+import me.obamakang.kkdialog.KKDialog;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,15 +24,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void shareDialog() {
-        //ShareBottomDialog dialog = new ShareBottomDialog();
+        //ShareKKDialog dialog = new ShareKKDialog();
         //dialog.show(getSupportFragmentManager());
         EditTextDialog dialog = new EditTextDialog();
         dialog.show(getSupportFragmentManager());
     }
 
     private void showDialog() {
-        BottomDialog.create(getSupportFragmentManager())
-                .setViewListener(new BottomDialog.ViewListener() {
+        KKDialog.create(getSupportFragmentManager())
+                .setViewListener(new KKDialog.ViewListener() {
                     @Override
                     public void bindView(View v) {
                         initView(v);
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 })
                 .setLayoutRes(R.layout.dialog_layout)
                 .setDimAmount(0.9f)
-                .setTag("BottomDialog")
+                .setTag("KKDialog")
                 .show();
     }
 

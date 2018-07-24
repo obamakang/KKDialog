@@ -8,8 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/bottomdialog" />
             <option value="$PROJECT_DIR$/example" />
+            <option value="$PROJECT_DIR$/kkdialog" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

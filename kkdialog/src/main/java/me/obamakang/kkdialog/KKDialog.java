@@ -1,4 +1,4 @@
-package me.obamakang.bottomdialog;
+package me.obamakang.kkdialog;
 
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
@@ -9,7 +9,7 @@ import android.view.View;
  * Created by obamakang on 16/10/11.
  */
 
-public class BottomDialog extends BaseBottomDialog {
+public class KKDialog extends BaseKKDialog {
 
     private static final String KEY_LAYOUT_RES = "bottom_layout_res";
     private static final String KEY_HEIGHT = "bottom_height";
@@ -31,8 +31,8 @@ public class BottomDialog extends BaseBottomDialog {
 
     private ViewListener mViewListener;
 
-    public static BottomDialog create(FragmentManager manager) {
-        BottomDialog dialog = new BottomDialog();
+    public static KKDialog create(FragmentManager manager) {
+        KKDialog dialog = new KKDialog();
         dialog.setFragmentManager(manager);
         return dialog;
     }
@@ -70,37 +70,37 @@ public class BottomDialog extends BaseBottomDialog {
         return mLayoutRes;
     }
 
-    public BottomDialog setFragmentManager(FragmentManager manager) {
+    public KKDialog setFragmentManager(FragmentManager manager) {
         mFragmentManager = manager;
         return this;
     }
 
-    public BottomDialog setViewListener(ViewListener listener) {
+    public KKDialog setViewListener(ViewListener listener) {
         mViewListener = listener;
         return this;
     }
 
-    public BottomDialog setLayoutRes(@LayoutRes int layoutRes) {
+    public KKDialog setLayoutRes(@LayoutRes int layoutRes) {
         mLayoutRes = layoutRes;
         return this;
     }
 
-    public BottomDialog setCancelOutside(boolean cancel) {
+    public KKDialog setCancelOutside(boolean cancel) {
         mIsCancelOutside = cancel;
         return this;
     }
 
-    public BottomDialog setTag(String tag) {
+    public KKDialog setTag(String tag) {
         mTag = tag;
         return this;
     }
 
-    public BottomDialog setDimAmount(float dim) {
+    public KKDialog setDimAmount(float dim) {
         mDimAmount = dim;
         return this;
     }
 
-    public BottomDialog setHeight(int heightPx) {
+    public KKDialog setHeight(int heightPx) {
         mHeight = heightPx;
         return this;
     }
@@ -129,7 +129,7 @@ public class BottomDialog extends BaseBottomDialog {
         void bindView(View v);
     }
 
-    public BaseBottomDialog show() {
+    public BaseKKDialog show() {
         show(mFragmentManager);
         return this;
     }
