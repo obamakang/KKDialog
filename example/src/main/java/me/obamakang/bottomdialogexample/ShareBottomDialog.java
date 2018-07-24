@@ -1,11 +1,10 @@
-package me.shaohui.bottomdialogexample;
+package me.obamakang.bottomdialogexample;
 
-import android.app.FragmentManager;
 import android.view.View;
-import me.shaohui.bottomdialog.BaseBottomDialog;
+import me.obamakang.bottomdialog.BaseBottomDialog;
 
 /**
- * Created by shaohui on 16/10/11.
+ * Created by obamakang on 16/10/11.
  */
 
 public class ShareBottomDialog extends BaseBottomDialog{

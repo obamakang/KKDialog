@@ -1,6 +1,6 @@
 # BottomDialog
-[![build](https://img.shields.io/badge/build-1.1.9-brightgreen.svg?maxAge=2592000)](https://bintray.com/shaohui/maven/BottomDialog)
-[![license](https://img.shields.io/badge/license-Apache%202-blue.svg?maxAge=2592000)](https://github.com/shaohui10086/BottomDialog/blob/master/LICENSE)
+[![build](https://img.shields.io/badge/build-1.1.9-brightgreen.svg?maxAge=2592000)](https://bintray.com/obamakang/maven/BottomDialog)
+[![license](https://img.shields.io/badge/license-Apache%202-blue.svg?maxAge=2592000)](https://github.com/obamakang/BottomDialog/blob/master/LICENSE)
 
 [中文版](/README_ZH.md)
 
@@ -15,7 +15,7 @@
 Maven
 
     <dependency>
-      <groupId>me.shaohui</groupId>
+      <groupId>me.obamakang</groupId>
       <artifactId>bottomdialog</artifactId>
       <version>1.1.9</version>
       <type>pom</type>
@@ -23,7 +23,7 @@ Maven
     
 or Gradle
 
-	compile 'me.shaohui:bottomdialog:1.1.9'
+	compile 'obamakang:bottomdialog:1.1.9'
 
 ## Uasge
 
@@ -94,7 +94,7 @@ If you are in the process of using, encountered any problems, welcome to put for
 
 ## License
 
-    Copyright 2016 shaohui10086
+    Copyright 2018 obamakang
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

@@ -1,7 +1,7 @@
-package me.shaohui.bottomdialog;
+package me.obamakang.bottomdialog;
 
 /**
- * Created by shaohui on 16/10/11.
+ * Created by obamakang on 16/10/11.
  */
 
 import android.os.Bundle;
@@ -16,7 +16,7 @@ import android.view.Window;
 import android.view.WindowManager;
 
 /**
- * Created by shaohui on 16/10/11.
+ * Created by obamakang on 16/10/11.
  */
 
 public abstract class BaseBottomDialog extends DialogFragment {

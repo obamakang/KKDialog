@@ -1,4 +1,4 @@
-package me.shaohui.bottomdialog;
+package me.obamakang.bottomdialog;
 
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
@@ -6,7 +6,7 @@ import android.support.v4.app.FragmentManager;
 import android.view.View;
 
 /**
- * Created by shaohui on 16/10/11.
+ * Created by obamakang on 16/10/11.
  */
 
 public class BottomDialog extends BaseBottomDialog {

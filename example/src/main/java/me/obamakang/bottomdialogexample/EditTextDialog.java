@@ -1,13 +1,13 @@
-package me.shaohui.bottomdialogexample;
+package me.obamakang.bottomdialogexample;
 
 import android.content.Context;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
-import me.shaohui.bottomdialog.BaseBottomDialog;
+import me.obamakang.bottomdialog.BaseBottomDialog;
 
 /**
- * Created by shaohui on 16/10/12.
+ * Created by obamakang on 16/10/12.
  */
 
 public class EditTextDialog extends BaseBottomDialog {

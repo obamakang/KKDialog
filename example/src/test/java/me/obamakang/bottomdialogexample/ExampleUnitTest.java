@@ -1,4 +1,4 @@
-package me.shaohui.bottomdialogexample;
+package me.obamakang.bottomdialogexample;
 
 import org.junit.Test;
 

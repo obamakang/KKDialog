@@ -1,6 +1,5 @@
 # BottomDialog
-[![build](https://img.shields.io/badge/build-1.1.9-brightgreen.svg?maxAge=2592000)](https://bintray.com/shaohui/maven/BottomDialog)
-[![license](https://img.shields.io/badge/license-Apache%202-blue.svg?maxAge=2592000)](https://github.com/shaohui10086/BottomDialog/blob/master/LICENSE)
+[![license](https://img.shields.io/badge/license-Apache%202-blue.svg?maxAge=2592000)](https://github.com/obamakang/BottomDialog/blob/master/LICENSE)
 
 `BottomDialog` 是一个通过 `DialogFragment` 实现的底部弹窗布局，并且支持弹出动画，支持任意布局
 
@@ -12,7 +11,7 @@
 Maven
 
     <dependency>
-      <groupId>me.shaohui</groupId>
+      <groupId>me.obamakang</groupId>
       <artifactId>bottomdialog</artifactId>
       <version>1.1.9</version>
       <type>pom</type>
@@ -20,7 +19,7 @@ Maven
     
 or Gradle
 
-	compile 'me.shaohui:bottomdialog:1.1.9'
+	compile 'obamakang:bottomdialog:1.1.9'
 
 ## Uasge
 
@@ -92,7 +91,7 @@ So Easy！
 
 ## License
 
-    Copyright 2016 shaohui10086
+    Copyright 2018 obamakang
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
